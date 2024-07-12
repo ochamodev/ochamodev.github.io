@@ -24,8 +24,8 @@ export default function RootLayout({
         <ActiveSectionContextProvider>
           <Header/>
           {children}
-          <SpeedInsights />
         </ActiveSectionContextProvider>
+        <SpeedInsights />
       </body>
     </html>
   )
